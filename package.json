@@ -1,0 +1,19 @@
+{
+  "name": "test_npmrc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "success1": "cross-env-shell echo $PATH ",
+    "success2": "cross-env-shell \"echo $HOME \"",
+    "fail1": "\"echo $PATH\"",
+    "fail2": "cross-env echo $PATH",
+    "fail3": "cross-env \"echo $PATH\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
